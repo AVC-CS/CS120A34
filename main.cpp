@@ -3,13 +3,14 @@
 using namespace std;
 int main()
 {
-  double C;
-  double F;
+  string month1, month2, month3;
+  double rainfall1, rainfall2, rainfall3;
+  double avg;
   
   /* ************************************
     Code your program here
   ************************************ */
 
   cout << setprecision(2) << fixed;
-  cout << "Celcius " << C << " is " << F << " Fahrenhiet" << endl;
+  cout << "The average rain fall for " << month1 << " " << month2 << " " << month3 << " is " << avg << endl;
 }
